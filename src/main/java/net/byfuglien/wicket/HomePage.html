@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+        <!--link href="bootstrap.css" rel="stylesheet">
+        <link href="bootstrap-switch.css" rel="stylesheet">
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap-switch.js"></script-->
+        <link href="mats.css" rel="stylesheet">
+	</head>
+	<body>
+        <!--div onclick="test()" style="background-color: hotpink; float: left;">
+		    <input type="checkbox" data-on-color="success" data-size="small" wicket:id="ajaxtest" />
+        </div-->
+        <div class="squaredFour">
+            <input type="checkbox" value="None" wicket:id="squaredFour"  onclick="console.log('box')"/>
+            <label for="myMarkupid"></label>
+        </div>
+
+
+	</body>
+<script>
+    /*var ajaxCheckBox = $("[name='ajaxtest']");
+    function test() {
+        console.log('ONCLICK');
+        ajaxCheckBox.bootstrapSwitch("state", !ajaxCheckBox.bootstrapSwitch("state"), true);
+        console.log("OC2");
+        ajaxCheckBox.trigger("click");
+        console.log("OC3");
+    }*/
+
+    //ajaxCheckBox.bootstrapSwitch();
+    //ajaxCheckBox.bootstrapSwitch().on('switchChange', function (e, data) {
+        //console.log("hei");
+        //Wicket.Ajax.ajax({"u":"./?0-1.IBehaviorListener.0-ajaxtest","e":"click","c":"myMarkupid","ad":data.value,"m":"POST"});
+        //console.log("State has been changed");
+        //var checkboxObject = ajaxCheckBox.bootstrapSwitch()[0];
+        //checkboxObject.onclick.apply(checkboxObject);
+    //});
+
+
+</script>
+</html>
